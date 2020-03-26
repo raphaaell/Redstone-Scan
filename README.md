@@ -7,3 +7,5 @@ Args : no, or a player.
 
 If no args, the scan will be done on the chunk where you are. 
 If <player> in args, and if the player is not on the server, an error will be returned to you. If the player is in the server, the scan will be done on the chunk where he are.
+  
+ !!! The plugin is in French !!!
