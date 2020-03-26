@@ -1,0 +1,17 @@
+name: RedstoneScan
+version: 1.0.0
+author: raph
+main: fr.raph.redstone.main.Main
+api-version: 1.13
+commands:
+  RedstoneScan:
+    description: Commande pour scanner dans un chunk 
+permissions:
+  scan.*:
+    description: Permettre au joueur d'utiliser toutes les commandes
+    default: op
+    children:
+      scan.RedstoneScan: true
+  scan.RedstoneScan:
+    description: Permettre au joueur d'utiliser la commande /RedstoneScan
+    default: false
